@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Prata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{            
+ box-sizing: border-box;  
+
+ }            
+
+html, body,            
+ ul, ol, li,            
+ h1, h2, h3, h4, h5, h6, p, div {            
+ margin: 0;            
+ padding: 0;            
+ }            
+         
+body {            
+    font-family: 'EB Garamond', serif;           
+}            
+
+a {            
+text-decoration: none;            
+ }            
+
+/* navbar */
+.container .navbar .collapse .navbar-nav .nav-item.active a{
+    color: #5704FF;
+}
+
+.container .navbar .collapse .navbar-nav .nav-item a:hover{
+    color: #5704FF;
+}
+/* and navbar */
+
+/* banner */
+.container .row{
+    padding: 40px;
+}
+
+.site-banner{
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.site-banner .container .row .site-title{
+    padding-top: 100px;
+}
+
+.site-banner .container .row .site-title h2{
+    color: #3B393E;
+    font-size: 60px;
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 15px;
+}
+
+.site-banner .container .row .site-title hr{
+    border-bottom: 3px solid #3B393E;
+    width: 160px;
+    margin-left: 290px;
+    margin-top: -20px;
+}
+
+.site-banner .container .row .site-title h1{
+    color: #3B393E;
+    font-size: 50px;
+    font-family: 'Knewave', cursive;
+    padding-bottom: 20px;
+}
+
+.site-banner .container .row .site-title h4{
+    color: #3B393E;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+}
+
+.site-banner .container .row .banner-image img{
+    height: 430px;
+    width: 400px;
+}
+
+.site-banner .container .row .site-buttons{
+    padding-top: 50px;
+}
+
+.site-banner .container .row .site-buttons .primary-button{
+    background: #5704FF;
+    color: white; 
+    font-family: 'Merienda One', cursive; 
+}
+
+.site-banner .container .row .site-buttons .primary-button:hover{
+    background: #fff;
+    border: 2px solid #5704FF;
+    color: black; 
+    transition: 1.5s; 
+}
+
+.site-banner .container .row .site-buttons .secondary-button{
+    border: 2px solid #5704FF;
+    color: #3B393E;  
+    font-family: 'Merienda One', cursive; 
+}
+
+.site-banner .container .row .site-buttons .secondary-button:hover{
+   background: #5704FF;
+    color: white;   
+    transition: 1.5s;
+}
+/* and banner */
+
+/* qoute */
+.container .qoute .row1 h1{
+     font-family: 'EB Garamond', serif;
+     text-align: center;
+     font-weight: bold;
+     font-size: 50px;
+}
+
+.container .qoute .row1 h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+
+
+/* and qoute */
+
+/* story */
+.container .story .row{
+    padding-top: 60px;
+
+}
+
+.container .story .row img{
+    width: 400px;
+}
+
+.container .story .row h1{
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    padding-top: 15px;
+}
+
+.container .story .row h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.container .story .row h1, h3{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container .story .row .site-buttons button{
+    background: #5704FF;
+    color: white;  
+    font-family: 'Merienda One', cursive;
+} 
+
+.container .story .row .site-buttons button:hover{
+    border: 2px solid #5704FF;
+    background: white;
+    color: #3B393E;
+    transition: 1.5s;
+} 
+/* and story*/
+
+/* profil */
+.container .profil .row{
+    margin-top: 30px;
+}
+.container .profil .row  h1{
+     font-family: 'EB Garamond', serif;
+     text-align: center;
+     font-weight: bold;
+     font-size: 60px;
+}
+
+.container .profil .row  h3{
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container1{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.container1 .card{
+    width: 300px;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 40px;
+    background: #F2F2F2;
+}
+
+
+
+.container1 .card:hover{
+    background: #3A3850;
+    color: #fff;
+    transition: 1s;
+}
+
+.container1 .card .imgBox{
+    text-align: center;
+}
+
+.container1 .card .imgBox img{
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid #707070;
+}
+
+.container1 .card .contenBox{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container1 .card .contenBox h2 p{
+    text-align: justify;
+}
+
+.container .gambar .row .icon img{
+    width: 500px;
+    padding: 30px;
+    padding-right: 60px; 
+    margin-top: 30px;
+}
+/* and profil */
+
+/* social media */
+.container .media {
+    margin-top: 30px;
+}
+.container .media h1{
+     font-family: 'EB Garamond', serif;
+     text-align: center;
+     align-items: center;
+     font-weight: bold;
+     font-size: 60px;
+}
+
+.container .media h3{
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container .iconMedia ul{
+    padding-top: 30px;
+    position: relative;  
+    justify-content: center;
+    display: flex;
+    height: 180px;
+}
+
+.container .iconMedia ul li{
+    list-style: none;
+}
+
+.container .iconMedia ul li a{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%; 
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: linear-gradient(0deg, #fff, #5F5E74);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+
+.container .iconMedia ul li a:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.container .iconMedia ul li a .fab{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #2F2E41, #3F3D56);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: #6C63FF;
+    transition: 5s;
+}
+/* and social media */
+
+/* footer */
+footer h2{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+  
+
+}
+
+/* and footer */
